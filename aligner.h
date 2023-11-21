@@ -32,6 +32,7 @@ class aligner {
             }
             added_vectors.push_back(&vec);
         }
+        
         int count() { return count_vectors; }
         int get_max_length() { return max_length; }
 };
