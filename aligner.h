@@ -36,6 +36,7 @@ class aligner {
         int count() { return count_vectors; }
         int get_max_length() { return max_length; }
 };
+kiskutya
 
 template <typename T>
 class center_aligner : public aligner<T> {
@@ -55,7 +56,10 @@ class center_aligner : public aligner<T> {
             }
         }
 };
-
+sfdgdsfgsdf
+sdfgsdfgsdfsdfgsdfg
+sdfgsdfgsdfg
+sdfgsdfgsdfgsdfg
 template <typename T>
 class left_aligner : public aligner<T> {
     public:
