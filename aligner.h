@@ -63,6 +63,7 @@ sdfgsdfgsdfgsdfg
 template <typename T>
 class left_aligner : public aligner<T> {
     public:
+    dfgsgfsdfgdsdfg
         void align() {
             for (int i = 0; i < aligner<T>::count_vectors; ++i) {
                 size_t size = aligner<T>::added_vectors[i]->size();
