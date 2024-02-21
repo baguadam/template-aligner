@@ -58,7 +58,8 @@ class center_aligner : public aligner<T> {
 };
 sfdgdsfgsdf
 sdfgsdfgsdfsdfgsdfg
-
+sdfgsdfgsdfg
+sdfgsdfgsdfgsdfg
 template <typename T>
 class left_aligner : public aligner<T> {
     public:
