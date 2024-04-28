@@ -59,10 +59,9 @@ class center_aligner : public aligner<T> {
 template <typename T>
 class left_aligner : public aligner<T> {
     public:
-    sdfgsdfgsdfg
-    sdfgsdfgsdfg
         void align() {
             for (int i = 0; i < aligner<T>::count_vectors; ++i) {
+                size_t size = aligner<T>::added_vectors[i]->size();
                 if (size < aligner<T>::max_length) {
                     if (aligner<T>::is_filler_set) {
                         aligner<T>::added_vectors[i]->resize(aligner<T>::max_length, aligner<T>::filler);
